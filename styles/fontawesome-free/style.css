@@ -1,0 +1,95 @@
+
+li{
+    list-style: none;
+}
+#content-info li{
+    list-style: none;
+    color: rgb(0, 144, 201);
+}
+
+
+  .page-content {
+      background: linear-gradient(#04b4e0, #b8d0d6);
+      border-radius: 32px;
+      max-height: 100%;
+      max-width: 1028vh;
+      height: auto;
+      margin-top: 10vh;
+    
+     
+    }
+  
+  
+  .avatar-header{
+        padding: 4rem;
+        color: rgb(255, 255, 255);
+        border-radius: 32px;
+  }
+  .avatar-header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+  .information-body{
+    margin-top: 7rem;
+    width: 100%;
+    color: rgba(0,0,0);
+    border-radius: 32px;
+    background: linear-gradient(#fff, #fff);
+    padding: 1rem;
+    margin-bottom: 10vh;
+
+      
+  }
+  .nav-menu {
+    padding: 6px;
+    border-radius: 32px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.nav-menu li {position:relative; float:left; border-right:1px solid #c0c0c0;} 
+
+.nav-menu li a{color:#fff; text-decoration:none; padding:5px 10px; display:block;}
+
+  @media (min-width:1020px){
+    .information-body{
+        margin-top: 6rem;
+        width: 100%;
+       
+        color: rgba(0,0,0);
+        border-radius: 32px;
+        background: linear-gradient(#fff, #fff);
+        padding: 1rem;
+      }
+      .nav-menu li {position:relative; float:left; border-right:1px solid #c0c0c0;} 
+      .nav-menu li a{color:#fff; text-decoration:none; padding:5px 4rem; display:block;}
+  }
+
+ .information-content{
+    margin: 10px;
+    text-align: justify;
+}
+
+  .footer-content{
+      margin: 2rem;
+      padding: 1rem;
+      text-align: center;
+      color: rgb(70, 70, 70);
+  }
+
+
+
+
+
+/* .nav-menu li{position:relative; float:left; border-right:1px solid #c0c0c0; }
+
+
+
+.nav-menu li a:hover{background:#333; color:#fff; -moz-box-shadow:0 3px 10px 0 #CCC; -webkit-box-shadow:0 3px 10px 0 #ccc; text-shadow:0px 0px 5px #fff; }
+
+.nav-menu li   ul{position:absolute; top:25px; left:0; background-color:#fff; display:none; }
+
+.nav-menu li:hover ul, .menu li.over ul{display:block;}
+
+.nav-menu li ul li{border:1px solid #c0c0c0; display:block; width:150px;} */
